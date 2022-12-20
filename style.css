@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.center{
+    width: 1210px;
+    height: 40em;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+
+}
+.row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    transition: all 1s linear;
+
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    border: 1px solid rgb(106, 104, 104, 0.2);
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
+.foto h3{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight:700 ;
+    text-align: center;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 80%;
+    margin: 20px auto;
+}
+.first{
+    font-size: 15px;
+    text-decoration: line-through red ;
+    color: rgb(106, 104, 104);
+    font-weight: 500;
+}
+.end{
+    color: red;
+    font-weight: 600;
+}
+.down{
+    margin-top: 100px;
+}
+.Sebeteat{
+    padding: 1em 1.5em;
+    border-radius: 8px;
+    color: #FFF;
+    background-color: #99CC33FF;
+    border: none;
+}
+.Sebeteat:hover{
+    cursor: pointer;
+}
+.title{
+    margin: 10px;
+    padding: 0.5em;
+    border: 1px solid red;
+    color: red;
+    font-size: 10px;
+    max-width: fit-content;
+    border-radius: 6px;
+}
+.hiddenmodal{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.141); 
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2; 
+    overflow: auto;
+}
+.show{
+    display: block;
+}
+.modal{
+    display: block;
+    background-color: #FFF;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5% auto;  
+    box-shadow: 0 5px 8px;
+    padding: 1em 2em ;
+}
+.block{
+    display: block;
+}
+
+.closebutton{
+    border-radius: 50%;
+    color: red;
+    border: 1px solid rgb(164,163,163);
+    padding: 0.5em;
+    font-size: 15px;
+    background-color: rgb(164, 163, 163, 0.3);
+}
+.closebutton:hover{
+    cursor: pointer;
+    border-radius: 50%;
+    color: red;
+    border: 1px solid black;
+    padding: 0.5em;
+    font-size: 15px;
+    background-color: rgb(164, 163, 163, 0.3);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.item{
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+.header .left h1{
+    color: black;
+    font-weight: 400;
+}
